@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Thu May 19 11:27:55 CST 2016
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=kafkademo_fat.jar
+manifest.mergeall=true
+manifest.mainclass=topology.StormkafkaTopology
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<jar|storm-core-0.10.1.jar>;<jar|log4j-api-2.1.jar>;<jar|log4j-core-2.1.jar>;<jar|log4j-slf4j-impl-2.1.jar>;<jar|log4j-over-slf4j-1.6.6.jar>;<jar|slf4j-api-1.7.5.jar>;<jar|slf4j-simple-1.7.5.jar>
+includes=
